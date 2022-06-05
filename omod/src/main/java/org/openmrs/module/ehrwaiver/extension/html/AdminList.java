@@ -9,15 +9,16 @@
  */
 package org.openmrs.module.ehrwaiver.extension.html;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.openmrs.module.Extension;
 import org.openmrs.module.web.extension.AdministrationSectionExt;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * This class defines the links that will appear on the administration page under the
- * "ehrwaiver.title" heading. This extension is enabled by defining (uncommenting) it in the config.xml file.
+ * "ehrwaiver.title" heading. This extension is enabled by defining (uncommenting) it in the
+ * config.xml file.
  */
 public class AdminList extends AdministrationSectionExt {
 	
@@ -44,7 +45,7 @@ public class AdminList extends AdministrationSectionExt {
 		
 		map.put("module/ehrwaiver/ehrwaiver.form", "ehrwaiver.title");
 		map.put("ehrwaiver/ehrwaiver.page", "ehrwaiver.refapp.title");
-
+		
 		return map;
 	}
 	
